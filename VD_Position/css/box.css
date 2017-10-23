@@ -1,0 +1,23 @@
+
+
+.box{
+	padding: 10px;
+	margin: 0.5%;
+	float: left;
+	width: 32%;
+	
+}
+
+
+
+
+p {
+	text-align: center;
+	color: blue;
+}
+
+p:hover {
+	color: black;
+}
+
+
