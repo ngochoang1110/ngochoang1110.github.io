@@ -17,6 +17,9 @@ body {
 }
 
 #main-menu {
+	margin-left: 50px;
+    background-color: #b2304a;
+    height: 27px; width: 900px;
 	text-align:center;
 }
 
@@ -44,7 +47,7 @@ img {
 	color: #fcfcfc;
 	text-decoration: none;
 	background-color: #b2304a;
-	border: 1px solid orange;
+	
 }
 #main-menu a:hover, #main-menu a:active {
 	color: black;
