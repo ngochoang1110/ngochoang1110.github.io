@@ -17,6 +17,7 @@ body {
 }
 
 #main-menu {
+
 	margin-left: 50px;
     background-color: #b2304a;
     height: 27px; width: 900px;
@@ -41,7 +42,8 @@ img {
 }
 
 #main-menu a {
-	margin: 5px;
+
+	margin: 27px;
 	padding: 3px;
 	font-size: 20px;
 	color: #fcfcfc;
