@@ -1,0 +1,10 @@
+img{
+	max-width: 500px;
+	border: 2px solid blue;
+	border-radius: 3%;
+
+}
+ 
+p{
+	max-width: 500px;
+}
