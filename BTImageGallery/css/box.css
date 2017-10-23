@@ -1,37 +1,21 @@
 
 
 .box{
-	padding: 15px;
-	/*margin-right: 5px;*/
+	padding: 10px;
+	margin: 0.5%;
 	float: left;
-	width: 33.33333%;
-	border: 1px solid ;
-	border-top-width: 3px;
+	width: 32%;
+	
 	
 }
 
-.info{
-	border-color: #76a7fa;
+p {
+	text-align: center;
+	color: blue;
 }
 
-.company{
-	border-color: #4bdfd9;
-}
-
-.contact {
-	border-color: #f9b256;
-}
-
-.info span {
-	color: #76a7fa;
-}
-
-.company span {
-	color: #4bdfd9;
-}
-
-.contact span {
-	color: #f9b256;
+p:hover {
+	color: black;
 }
 
 
