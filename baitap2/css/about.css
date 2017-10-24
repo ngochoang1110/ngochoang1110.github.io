@@ -1,0 +1,26 @@
+.box{ 
+	float: left;
+	width: 32.3%;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin: 0.5%;
+
+	 
+}
+.box:hover{ 
+	border: 1px solid red;
+
+}
+img{
+	text-align: center;
+	border: 3px solid green;
+
+}
+*{box-sizing: border-box;}
+
+p{ text-align: center; }
+
+p:hover{
+ 	color: red 
+}
+

@@ -1,0 +1,17 @@
+.wrap{
+	max-width: 1000px;
+	margin :auto;
+}
+#banner{
+	text-align: center;
+
+}
+#main-menu{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+#main-menu a{ 
+	padding-right: 60px;
+
+ }
