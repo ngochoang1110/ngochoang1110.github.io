@@ -18,7 +18,7 @@ body {
 
 #main-menu {
 
-	margin-left: 50px;
+	margin: auto;
     background-color: #b2304a;
     height: 27px; width: 900px;
 	text-align:center;
