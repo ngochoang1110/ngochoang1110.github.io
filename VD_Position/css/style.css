@@ -37,7 +37,10 @@ h1{
 	max-width: 100px;
 	max-height: 100px;
 }
-
+#backtop img:hover {
+	width: 80px;
+	height: 80px;
+}
 
 
 ./*ct {
