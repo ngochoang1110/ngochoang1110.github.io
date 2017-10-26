@@ -1,19 +1,13 @@
 
- body { background-color:#333; }
+ body { background-color:#333; } 
 #snow{
-  position: absolute;
-  top:0;
-  left: 0;
-    background: none;
-    font-family: Androgyne;
-    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index:1;
-    animation: snow 10s linear infinite;
+  margin: auto;
+  width: 700px;
+  height: 700px;
+  background: none;
+  font-family: Androgyne;
+  background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+  animation: snow 10s linear infinite;
 }
 @keyframes snow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
