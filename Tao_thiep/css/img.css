@@ -1,0 +1,39 @@
+img{
+	border-radius: 5%;
+	max-height: 700px;
+	max-width: 700px;
+}
+.pic2 img{
+	border: 2px solid #ffffff;
+    opacity: 0;
+	margin-left: 150px;
+	margin-top: 200px;
+	width: 400px;
+	height: 400px;
+}
+.pic1{
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pic2:hover img{
+	opacity: 0.8;
+	transform: scale(1.3);
+	transition: all 3s linear;
+
+}
+.pic2{
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.ong{
+	
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+

@@ -12,6 +12,7 @@
 .frame:hover img{
 	transform: scale(2);
 	transition: all 1s linear;
+	
 }
 
 .chat:hover img{
@@ -20,9 +21,9 @@
 
 @keyframes move{
         from{bottom: 0px;}
-        to{top: 100px;}
+        to{bottom: : 30px;}
     }
-.phone {
+.chat {			
   animation: move 2s infinite;
 }
 

@@ -1,0 +1,74 @@
+
+*{box-sizing: border-box;}
+
+.wrap {
+	position: relative;
+	margin: auto;
+	max-width: 700px;
+	max-height: 700px;
+}
+
+h1{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+
+@keyframes titlea {
+	0%   {color: #fce541;}
+    25%  {color: #fce541;}
+    50%  {color: #fc4066;}
+    75%  {color: #2836fc;}
+    100% {color: #1eff1e;}
+}
+@keyframes titleb {
+	
+    0%   {color: #1eff1e;}
+    25%  {color: #fce541;}
+    50%  {color: #fce541;}
+    75%  {color: #fc4066;}
+    100% {color: #2836fc;}
+}
+
+.title1 {
+	position: absolute;
+	top:10px;
+	left: 30px;
+	animation: titlea 10s ease infinite ;
+}
+.title2 {
+	position: absolute;
+	top: 60px;
+	left: 130px;
+	animation: titleb 10s ease infinite ;
+}
+@keyframes ong {
+	0%  {
+		left: 500px; 
+		top: 550px;
+		opacity: 0;
+		}
+	50%  {
+		left: 280px; 
+		top: 550px;
+		opacity: 1;
+		}	
+	100%  {
+		left: 10px; 
+		top: 550px;
+		opacity: 0;
+		}
+	
+}
+
+.ong {
+	animation: ong 5s ease infinite;
+	position: relative;
+}
+
+
+
+
+
+
+
