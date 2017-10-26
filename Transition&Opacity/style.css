@@ -7,7 +7,14 @@ body {
 	font-weight: 500;
 	background-color: #ffffff;
 }
-
+#test {
+	color: red;
+	margin-left: 5px;
+	height: 50px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px
+}
 @keyframes title {
 	0%  {background-color: #EF7126; color: #F9E559;}
     25%  {background-color: #6F3662; color: #FFFFFF;}
@@ -27,7 +34,6 @@ h1 {
 	text-align: center;
 	animation: title 5s ease infinite ;
 }
-
 .wrap {
 	margin: auto;
 	max-width: 1000px;
@@ -77,12 +83,14 @@ h1 {
         height: 100px;
         background-color: red;
         box-shadow: 0 5px 5px 0;
+
+}        
 ./*thumb:hover img {
 	opacity: 0.1;
 	max-width: 70%;
 	opacity: 1;
 }*/
-#test p {
+/*#test p {
     opacity: 0;
     margin-top: 25px;
     font-size: 21px;
@@ -91,5 +99,27 @@ h1 {
     -moz-transition: opacity 2s ease-in;
     -o-transition: opacity 2s ease-in;
     -ms-transition: opacity 2s ease-in;
-    transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;*/
 }​
+
+@keyframes chuchay {
+from {width: 100%; opacity: 1}
+
+
+to {width: 50%; opacity: 0}
+
+
+}
+
+
+h4 {
+
+
+text-align: right;
+
+
+animation: chuchay 5s ease infinite;
+
+
+}
+
