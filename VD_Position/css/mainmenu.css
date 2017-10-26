@@ -16,6 +16,10 @@
 	
 }
 
+#main-menu img {
+	border: solid 2px red;
+}
+
 #main-menu > a:first-child {
 	padding: 4px;
 	position: absolute;
