@@ -1,0 +1,15 @@
+.box p{
+	text-align: center;
+	font-size: 18px;
+	font-family: arial;
+	text-transform: uppercase;
+	color: blue;
+}
+
+.frame {
+	margin: auto;
+	padding: 5px;
+	float: left;
+	width: 33.333333%;
+	padding: 15px;
+}

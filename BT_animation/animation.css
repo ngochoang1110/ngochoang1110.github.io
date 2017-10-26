@@ -1,0 +1,52 @@
+@keyframes title {
+	0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+.frame {
+	overflow: hidden;
+}
+.frame:hover img{
+	transform: scale(2);
+	transition: all 1s linear;
+}
+
+.chat:hover img{
+	transform: scale(2);
+}
+
+@keyframes move{
+        from{bottom: 0px;}
+        to{top: 100px;}
+    }
+.phone {
+  animation: move 2s infinite;
+}
+
+@keyframes fish {
+	0%  {
+		left: 0px; 
+		top: 0px;
+		opacity: 0;
+	}
+
+	50% {
+		left: 500px;
+		top: 0px;
+		opacity: 1;
+	}
+
+    100% {
+    	left: 700px; 
+    	top: 0px;
+    	opacity: 0;
+    }
+}
+
+.phone {
+	animation: fish 10s ease infinite;
+	position: relative;
+}
