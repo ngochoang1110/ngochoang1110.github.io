@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	background-color: #ffffff;
+	padding: 0;
+	max-width: 1200px;
+	margin: auto;
+
+}
+
+#banner img {
+	
+	width: 1200px;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: #b2304a;
+	font-size: 24px;
+}
+#main-content {
+	position: absolute;
+	top: 462px;
+	left: 530px;
+	border: 3px solid #e9e7f1;
+}
+
+#chat {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+#backtop img{
+	max-width: 100px;
+	max-height: 100px;
+}
+#backtop img:hover {
+	width: 80px;
+	height: 80px;
+}
+
+
+#km img {
+	position: absolute;
+	top:462px;
+	left: 0px;
+	width: 532px;
+	height: 537px;
+	padding: 15px;
+	border: 3px solid #e9e7f1;;
+}

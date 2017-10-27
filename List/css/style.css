@@ -1,0 +1,15 @@
+ul {
+	list-style-type: circle;
+}
+#main-menu > li {
+    float: left;
+}	
+#menu > li > ul {
+    list-style-type: none;
+    display: none;
+}
+/*Và chỉ hiển thị khi di chuột qua menu item của menu cấp 1:*/
+
+#menu > li:hover > ul {
+    display: block;
+}
