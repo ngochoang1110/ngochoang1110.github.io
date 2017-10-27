@@ -4,7 +4,7 @@
 
 body {
 	position: relative;
-	background-color: #ffffff;
+	background-color: #d7d7d7;
 	padding: 0;
 	max-width: 1200px;
 	margin: auto;
@@ -23,12 +23,25 @@ h1{
 	font-size: 24px;
 }
 #main-content {
+	width: 670px;
+	height: 534px;
+	background-color: #ffffff;
 	position: absolute;
-	top: 462px;
+	top: 467px;
 	left: 530px;
-	border: 3px solid #e9e7f1;
+	
 }
 
+#km img {
+	background-color: #ffffff;
+	position: absolute;
+	top:467px;
+	left: 0px;
+	width: 525px;
+	height: 535px;
+	padding: 15px;
+	
+}
 #chat {
 	position: fixed;
 	right: 30px;
@@ -42,14 +55,45 @@ h1{
 	width: 80px;
 	height: 80px;
 }
+#km img:hover {
+transform: scale(0.8);
+}
 
-
-#km img {
+.call {
+	position: relative;
 	position: absolute;
-	top:462px;
+	top: 1008px;
 	left: 0px;
-	width: 532px;
-	height: 537px;
-	padding: 15px;
-	border: 3px solid #e9e7f1;;
+	width: 1200px;
+	background-color: #ffffff;
+	
+}
+h2{
+	font-family: Georgia ;
+	padding-left: 400px;
+	font-size: 30px;
+	text-transform: uppercase;
+	animation: title 2s ease infinite ;
+}
+
+@keyframes title {
+	0%  {; color: red;}
+    10%  {; color: yellow;}
+    20%  {; color: red;}
+    30%  {; color: yellow;}
+    40%  {; color: red;}
+    50%  {; color: yellow;}
+    60%  {; color: red;}
+    70%  {; color: yellow;}
+    80% {; color: red;}
+    90%  {; color: yellow;}
+    100%  {; color: red;}
+   
+}
+
+pre {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	white-space: pre-line;
 }

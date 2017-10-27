@@ -1,38 +1,46 @@
+
+#menu  ul {
+    list-style-type: none;
+    display: none;
+
+}
+#menu:hover > ul {
+    display: block;
+}
+
+.lau{
+	background-color: red;
+	width: 400px;
+	height: 50px;
+}
+
+.mlau {
+	z-index: 999;
+	position: absolute;
+	top: 15px;
+	left:0px;
+}
+
 #main-menu {
 	position:relative;
-	background-color: #ffffff;
+	background-color: red;
     width: 1200px; 
-	text-align:center;
-	padding: 10px;
-	border: 3px solid #e9e7f1;
+	height: 50px;
+	
 
 }
 
-
 #main-menu a {
+	
+	padding-left: 95px;
 
-	font-size: 25px;
-	color: #d01a1a;
+	color: #ffffff;
 	text-decoration: none;
-	background-color: #ffffff;
-	
-}
-.menu-a {
-	float: left;
-	width: 400px;
-	
-
-	
-}
-
-#main-menu a {
-
-	margin: auto;
-	
 	font-size: 24px;
-	
+	text-transform: uppercase;
+	font-style: bold;
 	text-decoration: none;
-	
+	margin: 0 auto;
 
 	
 }
@@ -42,5 +50,28 @@
 }
 #main-menu a:active {
 	font-weight: bold;
+
 }
 
+.menu-a {
+	
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	top:11px;
+	left: 0px;
+}
+.menu-b {
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	top:-4px;
+	left: 400px;
+}
+.menu-c {
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	top:11px;
+	left: 800px;
+}
