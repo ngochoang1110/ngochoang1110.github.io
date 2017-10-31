@@ -39,3 +39,16 @@ span {
 	font-style: oblique;
 	font-weight: bold;
 }
+
+.mua {
+
+	z-index: 9999;
+	
+	position: absolute;
+	top: 840px;
+	left: 70px;
+}
+.mua img{
+	width: 250px;
+	height: 100px;
+}
