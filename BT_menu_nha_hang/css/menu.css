@@ -1,0 +1,66 @@
+/*.main-menu ul {
+  list-style-type: none;
+  text-align: center;
+
+}
+#menu ul li {
+	display: inline-block;
+	margin-left: 25px;
+}
+a {
+	text-decoration: none;
+	
+}
+
+.menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+.sub-menu li {
+  display: none;
+}*/
+#menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  /*color: #f1f1f1;*/
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+	font-size: 20px;
+  text-decoration: none;
+ /* color: #fff;*/
+  display: block;
+}
+#menu a:hover {
+  /*background: #F1F1F1;*/
+  color: #FF9933;
+}
+
+/*==Dropdown Menu==*/
+.sub-menu {
+	font-size: 20px;
+	background-color: #ffffff;			
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+
+#menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu li {
+  margin-left: -40px !important;
+}
+
+/*==Menu cấp 3==*/
+.sub-menu > ul {
+  display: none !mportant;
+}
