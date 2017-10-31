@@ -20,6 +20,8 @@ a {
 .sub-menu li {
   display: none;
 }*/
+a{text-decoration: none;}
+
 #menu ul {
   list-style-type: none;
   text-align: center;
@@ -63,4 +65,34 @@ a {
 /*==Menu cấp 3==*/
 .sub-menu > ul {
   display: none !mportant;
+}
+
+#content .menu2 .thucdon{
+  width: 160px;
+  margin: auto;
+}  
+#content .menu2 {
+  font-size: 30px;
+}
+
+#content .menu2 ul {
+
+  text-align: center; 
+  list-style-type: none;
+  margin-left: -50px;
+}
+.sub2-menu li{
+  font-size: 25px;
+}
+.sub2-menu a:hover {
+  /*background: #F1F1F1;*/
+  color: #FF9933;
+}
+#footer pre{
+  text-align: center;
+}
+.back {
+  position: absolute;
+  left: 50px;
+  top: 25px;
 }
