@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<link rel="shortcut icon" type="text/css" href="calculator.ico">
+</head>
+<body>
+	<div id="header">
+	<h1>Bài tập Calculator</h1s>
+	<h1>Trần Ngọc Hoàng</h1>
+</div>
+<div id="div1">
+<table>
+		<tr>
+			<td colspan="6"> <input id="result" type="text"></td>
+		</tr>
+	<tr>
+			<td><input title="7" type="button" class="num" value="7" onclick="result.value+=this.value"></td>
+			<td><input title="8" type="button" class="num" value="8" onclick="result.value+=this.value"></td>
+			<td><input title="9" type="button" class="num" value="9" onclick="result.value+=this.value"></td>
+			<td><input title="Phép cộng" type="button" class="num" value="+" onclick="result.value+=this.value"></td>
+			<td><input title="Bình phương" type="button" class="num" value="X²" onclick="binhphuong()"></td>
+			<td><input title="Xóa" type="button" class="num" value="<--" onclick="result.value=result.value.substr(0,result.value.length-1)"></td>
+	</tr>
+	<tr>
+			<td><input title="4" type="button" class="num" value="4" onclick="result.value+=this.value"></td>
+			<td><input title="5" type="button" class="num" value="5" onclick="result.value+=this.value"></td>
+			<td><input title="6" type="button" class="num" value="6" onclick="result.value+=this.value"></td>
+			<td><input title="Phép trừ" type="button" class="num" value="-" onclick="result.value+=this.value"></td>
+			<td><input title="Phép giai thừa" type="button" class="num" value="!" onclick="giaithua()"></td>
+			<td><input title="Xóa tất cả" type="button" class="num" value="AC" onclick="result.value=''"></td>
+	</tr>
+	<tr>
+			<td><input title="1" type="button" class="num" value="1" onclick="result.value+=this.value"></td>
+			<td><input title="2" type="button" class="num" value="2" onclick="result.value+=this.value"></td>
+			<td><input title="3" type="button" class="num" value="3" onclick="result.value+=this.value"></td>
+			<td><input title="Phép nhân" type="button" class="num" value="*" onclick="result.value+=this.value"></td>
+			<td><button title="Căn bậc hai" class="num" onclick="canbac2()">√</button></td>
+			<td><input title="Số pi" type="button" class="num" value="π" onclick="pi()"></td>
+
+	</tr>
+	<tr>
+			<td><input title="0" type="button" class="num" value="0" onclick="result.value+=this.value"></td>
+			<td><input title="Số thập phân" type="button" class="num" value="." onclick="result.value+=this.value"></td>
+			<td><input title="Phần trăm" type="button" class="num" value="%" onclick="phantram()"></td>
+			<td><input title="Phép chia" type="button" class="num" value="/" onclick="result.value+=this.value"></td>
+			<td colspan="2"><input title="Kết quả" type="button" class="num1" value="=" onclick="result.value=eval(result.value)"></td>
+	</tr>
+</table>
+</div>
+
+<!-- <script type="text/javascript">
+	function canbac2() {
+		var a= document.getElementById('result').value;
+		document.getElementById('result').value = Math.sqrt(a);
+	}
+	function phantram(){
+		var a= document.getElementById('result').value;
+		document.getElementById('result').value = document.getElementById('result').value /100
+	}
+	function binhphuong(){
+		var a = document.getElementById('result').value;
+		document.getElementById('result').value = a*a;
+	}
+	function giaithua(){
+		var a = document.getElementById('result').value;
+		var y=1;
+		for (var x = 1; x<a; x++){
+			y=y*x
+		document.getElementById('result').value = y*a;
+	}
+	}
+	function pi(){
+		var a = document.getElementById('result').value;
+		document.getElementById('result').value = a*3.14159265359;
+	}
+</script> -->
+</body>
+</html>
