@@ -1,0 +1,69 @@
+/*body {
+	max-width: 1200px;
+	position: relative;
+	background-color: #428bca;
+	background-size: 100%;
+}
+.num {
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	margin: 3px;
+	font-size: 30px;
+	border-radius: 30%;
+	background-color: #000;
+}
+#result {
+	width: 360px;
+	height: 40px;
+	font-size: 30px;
+	text-align: right;
+}
+.num1 {
+	width: 110px;
+	height: 50px;
+	margin: 3px;
+	background-color: #428bca;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 10%;
+}
+table {
+
+	border-radius: 2%;
+	background-color: #fff;
+	margin: auto;
+}
+#header {
+	font-size: 10px;
+	text-align: center;
+}
+*/
+
+body{
+	background-color: black;
+	max-width: 1200px;
+}
+.num{
+	width: 40px;
+
+}
+h2{
+	color: #fff;
+}
+#conten{
+	margin: auto;
+	padding: auto;
+}
+table {
+	border-radius: 2%;
+	margin: auto;
+}
+#result{
+	width: 255px;
+}
+
+.num1{
+	width: 85px;
+}
+
